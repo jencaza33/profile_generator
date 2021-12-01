@@ -33,7 +33,7 @@ rl.question('What\'s your name? Nicknames are also acceptable :)', (answer) => {
               arr.push(answer);
               console.log(`Thank you for your valuable feedback: ${answer}`);
 
-              console.log(arr[0] + ' here! Just finished ' + arr[1] + ' man, I listen to alot of ' + arr[2] + '. I also enjoy ' + arr[3] + ', where I ususally eat ' + arr[4]
+              console.log(arr[0] + ' here! Just finished ' + arr[1] + ' man, I listen to alot of ' + arr[2] + '. I also enjoy ' + arr[3] + ', where I usually eat ' + arr[4]
                 + '. I really enjoy playing ' + arr[5] + ' and my superpower is ' + arr[6] + '.');
 
               rl.close();
